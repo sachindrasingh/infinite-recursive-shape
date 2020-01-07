@@ -1,0 +1,25 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "JavaScript Assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Sachindra Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
