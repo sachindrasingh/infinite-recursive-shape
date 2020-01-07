@@ -1,6 +1,6 @@
 # Infinite recursive shape
 
-Solution for Test assignment | Sachindra Singh
+Solution for Test assignment | Sachindra Singh | ![Status Badge](https://github.com/sachindrasingh/infinite-recursive-shape/workflows/Test%20CI/badge.svg)
 
 ## Installation
 
