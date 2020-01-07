@@ -50,10 +50,7 @@ npm test
 
 ## Screen Shots for 4 Cases as Below
 
- <img src="docs/20x40x6.png" height="200" alt="Screenshot"/>
- <img src="docs/60x60x10.png" height="200" alt="Screenshot"/>
- <img src="docs/80x100x20.png" height="200" alt="Screenshot"/>
- <img src="docs/80x20x16.png" height="200" alt="Screenshot"/>
+ <img src="docs/20x40x6.png" height="200" alt="Screenshot"/> <img src="docs/60x60x10.png" height="200" alt="Screenshot"/> <img src="docs/80x100x20.png" height="200" alt="Screenshot"/> <img src="docs/80x20x16.png" height="200" alt="Screenshot"/>
 
 
 **Sachindra Singh**
