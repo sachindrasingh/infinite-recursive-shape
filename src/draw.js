@@ -9,7 +9,13 @@ const pixelEnum = ' -|';
  * @return Function || 2 dimensional array
  */
 const draw = (width, height, padding) => {
-    let Matrix = null;
+    // Create Array of (n) Height to create Matrix.
+    let Matrix = Array(height);
+    Matrix = Matrix.fill(0);
+    Matrix = Matrix.map((x) => {
+        // add column or width in each row to create Matrix.
+        return Array(width).fill(0)
+    });
     /* fillValue function is used to fill value in Matrix based on given axis.
      * @param x {Number} x axis position in Matrix   
      * @param y {Number} y axis position in Matrix   
@@ -46,13 +52,6 @@ const draw = (width, height, padding) => {
         // Height - (height - padding - 2) to add padding and the current borders (Both) 
         return fillValue({ x: x + padding / 2 + 1, y: y + padding / 2 + 1 }, w - padding - 2, h - padding - 2)
     }
-    // Create Array of (n) Height to create Matrix.
-    Matrix = Array(height);
-    Matrix = Matrix.fill(0);
-    Matrix = Matrix.map((x) => {
-        // add column or width in each row to create Matrix.
-        return Array(width).fill(0)
-    });
 
     // Start filing the matrix (Start from 0 0). 
     return fillValue({ x: 0, y: 0 }, width, height);
