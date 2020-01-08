@@ -1,6 +1,6 @@
-var express = require('express');
-var app = express();
-var drawShape = require('./src/draw.js').drawShape;
+const express = require('express');
+const app = express();
+const drawShape = require('./src/draw.js').drawShape;
 
 app.set('view engine', 'ejs');
 app.use(express.json());
@@ -45,8 +45,7 @@ app.get('/', function(req, res) {
 	});
 });
 
-const server = app.listen(process.env.PORT || 8182, function () {
-   const host = server.address().address || "localhost";
+const server = app.listen(8182 || process.env.PORT, function () {
    const port = server.address().port;
-   console.log(`Server listening at http://${host}:${port}`);
+   console.log(`Server listening at http://localhost:${port}`);
 })
